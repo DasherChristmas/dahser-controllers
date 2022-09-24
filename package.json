@@ -1,0 +1,35 @@
+{
+  "name": "@dasherchristmas/dasher-output",
+  "version": "1.0.0",
+  "description": "The controller interfacing library for the Dasher Sequencer.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DasherChristmas/dasher-controllers.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DasherChristmas/dasher-controllers/issues"
+  },
+  "homepage": "https://github.com/DasherChristmas/dasher-controllers#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.2"
+  },
+  "dependencies": {
+    "@errorgamer2000/typed-integers": "^1.0.0",
+    "@types/node": "^18.7.18",
+    "@types/ws": "^8.5.3",
+    "net-ping": "^1.2.3",
+    "node-fetch": "^3.2.10",
+    "ws": "^8.8.1"
+  }
+}
